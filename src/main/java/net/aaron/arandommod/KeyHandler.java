@@ -25,7 +25,7 @@ public class KeyHandler {
 
             long currentTime = System.currentTimeMillis();
 
-            if (currentTime - lastUseTime < 500) {
+            if (currentTime - lastUseTime < 1) {
                 return;
             }
 
